@@ -10,7 +10,7 @@ body {
     justify-content: center;
     font-size: 100px;
     color: rgb(2, 202, 62);
-    padding-top: 350px;
+    padding-top: 200px;
 
 
 
@@ -18,7 +18,7 @@ body {
 
 .foto {
     
-    height: 800px;
+    height: 600px;
     background-image: url(../img/im2.jpg);
     position: relative;
     background-position: center;
@@ -89,7 +89,7 @@ main .texto {
 .foto3 {
 
     height: 800px;
-    background-image: url(../img/foto3.jpg);
+    background-image: url(../img/foto.jpg);
     position: relative;
     background-position: center;
     background-size: cover;
