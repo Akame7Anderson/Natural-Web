@@ -62,8 +62,18 @@ main .texto {
     
 }
 
-.texto p {
+.foto3 .mapa  {
 
+    width: 100%;
+
+}
+
+
+
+.texto p {
+    
+    display: flex;
+    text-align: center;
     font-size: 15px;
 
 }
@@ -100,6 +110,8 @@ main .texto {
     justify-content: center;
 
 }
+
+
 
 
 
