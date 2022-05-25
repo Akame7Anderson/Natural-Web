@@ -5,15 +5,19 @@ body {
 
 }
 .container-foto h1 {
-
-    display: flex;
-    justify-content: center;
-    font-size: 100px;
-    color: rgb(2, 202, 62);
+    text-align: center;
+    font-size: 90px;
+    color: rgb(0, 0, 0);
     padding-top: 200px;
+    font-family: "Prompt", sans-serif;
+}
 
+.container-foto img {
 
-
+    width: 80px;
+    border-radius: 50px;
+    height: 80px;
+    margin-top: 8px;
 }
 
 .foto {
@@ -45,6 +49,8 @@ body {
 
 }
 
+
+
 main .texto {
 
     padding-top: 20px;
@@ -56,17 +62,46 @@ main .texto {
 
 }
 
-.texto p, iframe  {
-
-    margin-bottom: 20px;
+.segunda-parte{
+    display: flex;
+    flex-direction: column;
     
 }
 
-.texto p {
+.video-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    height: 300px;
+    align-items: center;
+    
+}
 
+
+
+.div-img img {
+    width: 150px;
+
+}
+
+
+
+
+.foto3 .mapa  {
+    width: 100%;
+
+}
+
+
+
+.texto p {
+    
+    display: flex;
+    text-align: center;
     font-size: 15px;
 
 }
+
 
 .foto2 p {
 
@@ -74,8 +109,9 @@ main .texto {
     width: 50%;
     text-align: center;
     margin-bottom: 10px;
-    color: rgb(39, 39, 39);
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
+    background-color: rgba(207, 207, 207, 0.527);
 
 }
 
@@ -84,6 +120,7 @@ main .texto {
     width: 50%;
     text-align: center;
     margin-bottom: 10px;
+    background-color: rgba(2, 2, 2, 0.212);
 }
 
 .foto3 {
