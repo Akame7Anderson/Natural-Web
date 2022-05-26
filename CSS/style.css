@@ -208,7 +208,7 @@ main .texto {
  }
 
  .texto-foto3 p {
-     width: 50%;
+    width: 50%;
     display: flex;
     text-align: center;
     color: black;
@@ -216,6 +216,76 @@ main .texto {
     font-size: 16px;
  }
 
+.cons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+    
+    
+}
+
+
+nav {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+ .cons .conscientizacao  {
+    display: flex;
+    border: 2px solid rgb(0, 88, 146);
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    
+ }
+
+ .cons .cons-texto {
+
+    margin-bottom: 10px;
+    
+ }
+ 
+
+ nav img {
+     width: 100px;
+     height: 100px;
+ }
+
+ .abaixo {
+     font-weight: 600;
+ }
+
+ .dicas {
+     display: flex;
+     align-items: center;
+     margin-top: 20px;
+     justify-content: space-between;
+ }
+
+ .dicas p {
+     width: 50%;
+ }
+nav .icon{
+    width: 13px;
+    height: 13px;
+ }
+
+.dicas2 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+    
+}
+.dicas2 p {
+    width: 50%;
+}
 
 
 
