@@ -68,6 +68,7 @@ main .texto {
     
 }
 
+<<<<<<< HEAD
 .video-img {
     display: flex;
     justify-content: space-evenly;
@@ -88,6 +89,10 @@ main .texto {
 
 
 .foto3 .mapa  {
+=======
+.foto3 .mapa  {
+
+>>>>>>> aaa51a64e2a0f5df5861a5dea5ae4be031a78e70
     width: 100%;
 
 }
@@ -161,6 +166,8 @@ main .texto {
     border-radius: 15px;
     
  }
+
+
 
 
 
