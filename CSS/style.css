@@ -1,7 +1,7 @@
 body {
 
     font-family: "Poppins", sans-serif;
-    background-color: rgba(2, 136, 24, 0.247);
+    background-color: rgb(253, 255, 253);
 
 }
 .container-foto h1 {
@@ -22,6 +22,7 @@ body {
 
 .foto {
     
+    width: 100%;
     height: 600px;
     background-image: url(../img/im2.jpg);
     position: relative;
@@ -32,20 +33,68 @@ body {
     
 
 }
-
-.foto2 {
-
-    height: 600px;
-    background-image: url(../img/foto2.jpg);
+.texto-foto2 {
     position: relative;
-    background-position: top;
+    z-index: 5;
+    width: 100%;
+    height: 600px;
+}
+
+.foto2  {
+    
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100%;
+    background-image: url(../img/foto2.jpg);
+    position: absolute;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat; 
+    z-index: -1;
+    opacity: 0.40;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+
+}
+
+
+
+.texto-foto2 p {
+
+    
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0);
+    margin-bottom: 40px;
+    font-size: 15px;
+
+}
+
+.texto-foto2 h2 {
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+
+
+.texto-foto2 {
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 
 }
 
@@ -60,6 +109,9 @@ main .texto {
     flex-direction: column;
     align-items: center;
 
+}
+.texto p {
+    font-size: 15px;
 }
 
 .segunda-parte{
@@ -87,10 +139,12 @@ main .texto {
 
 
 
-.foto3 .mapa  {
+.mapa  {
     width: 100%;
-
+    height: 300px;
+    margin-top: 15px;
 }
+
 
 
 
@@ -99,67 +153,67 @@ main .texto {
     display: flex;
     text-align: center;
     font-size: 15px;
-
-}
-
-
-.foto2 p {
-
-    font-weight: 500;
     width: 50%;
-    text-align: center;
-    margin-bottom: 10px;
-    color: rgb(0, 0, 0);
-    margin-bottom: 40px;
-    background-color: rgba(207, 207, 207, 0.527);
-    border-radius: 15px;
-    border: 0.5px solid black;
 
 }
 
-.foto2 h2 {
-    font-weight: 600;
-    width: 50%;
-    text-align: center;
-    margin-bottom: 10px;
-    background-color: rgba(2, 2, 2, 0.212);
-    border-radius: 15px;
-    border: 3px solid black;
-}
 
-.foto3 {
+.texto-foto3 {
 
-    height: 800px;
-    background-image: url(../img/foto.jpg);
     position: relative;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    z-index: 5;
+    width: 100%;
+    height: 600px;  
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
- .foto3 span {
+
+
+.foto3 {
+    z-index: -1;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/foto.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.40;
+    align-items: center;
+}
+
+.alert  {
+    
+    height: 40px;
+    width: 50px;
+    
+
+}
+
+
+
+.texto-foto3 .segundop {
 
     display: flex;
     text-align: center;
     color: black;
     font-weight: 500;
-    background-color: rgba(255, 253, 253, 0.438);
-    border-radius: 15px;
-    border: 5px solid black;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
  }
 
- .foto3 p {
+ .texto-foto3 p {
+     width: 50%;
     display: flex;
     text-align: center;
     color: black;
     font-weight: 500;
-    background-color: rgba(255, 253, 253, 0.438);
-    border-radius: 15px;
-    
+    font-size: 16px;
  }
 
 
