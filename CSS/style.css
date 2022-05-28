@@ -331,7 +331,6 @@ nav .icon{
     width: 100%;
     height: 600px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 } 
@@ -356,12 +355,14 @@ nav .icon{
 .texto-foto4 .primeirop {
 
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 800;
     width: 50%;
     font-size: 20px;
     padding-top: 20px;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 150px;
     
     
 
@@ -371,13 +372,35 @@ nav .icon{
 
     font-weight: 500;
     font-size: 15px;
+    color: #fff;
+    text-shadow: 5px 5px 5px black;
 
 }
 
 .texto-foto4 .link {
 
     border: 1px solid rgb(111, 0, 255);
+    color: rgb(2, 0, 3);
     
 
 }
 
+.texto-foto4 .refs {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500; 
+
+}
+.refs p {
+
+    margin-bottom: 15px;
+
+}
+.refs a {
+
+    margin-bottom: 25px;
+
+}
