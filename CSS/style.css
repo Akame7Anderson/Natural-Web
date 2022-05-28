@@ -52,7 +52,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat; 
     z-index: -1;
-    opacity: 0.40;
+    opacity: 0.65;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,7 +181,7 @@ main .texto {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 0.40;
+    opacity: 0.65;
     align-items: center;
 }
 
@@ -189,7 +189,7 @@ main .texto {
     
     height: 40px;
     width: 50px;
-    
+    border-radius: 50px;
 
 }
 
@@ -314,6 +314,7 @@ nav .icon{
     margin-top: 40px;
     justify-content: space-around
     
+    
 }
 
 
@@ -321,6 +322,21 @@ nav .icon{
 .dicas4 p {
     width: 50%;
 }
+
+
+.texto-foto4 {
+
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+} 
+    
+
 
 
 .foto4 {
@@ -333,10 +349,35 @@ nav .icon{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 0.40;
-    align-items: center;
+    opacity: 0.70;
     margin-top: 20px;
 }
 
+.texto-foto4 .primeirop {
 
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
+    
+
+}
+
+.texto-foto4 p {
+
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.texto-foto4 .link {
+
+    border: 1px solid rgb(111, 0, 255);
+    
+
+}
 
