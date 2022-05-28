@@ -233,15 +233,21 @@ main .texto {
 nav {
     font-size: 15px;
     font-weight: 500;
+    
+
 }
 
- .cons .conscientizacao  {
+
+
+
+.cons .conscientizacao  {
     display: flex;
     border: 2px solid rgb(0, 88, 146);
     width: 50%;
     align-items: center;
     flex-direction: column;
     background-color: aqua;
+    
     
  }
 
@@ -252,24 +258,26 @@ nav {
  }
  
 
- nav img {
-     width: 100px;
-     height: 100px;
+nav img {
+    width: 100px;
+    height: 100px;
+     
  }
 
- .abaixo {
-     font-weight: 600;
+.abaixo {
+    font-weight: 600;
  }
 
- .dicas {
-     display: flex;
-     align-items: center;
-     margin-top: 20px;
-     justify-content: space-between;
+.dicas {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around
+    
  }
 
- .dicas p {
-     width: 50%;
+.dicas p {
+    width: 50%;
  }
 nav .icon{
     width: 13px;
@@ -280,13 +288,55 @@ nav .icon{
     display: flex;
     align-items: center;
     margin-top: 40px;
-    justify-content: space-between;
+    justify-content: space-around
     
 }
 .dicas2 p {
     width: 50%;
 }
 
+.dicas3 {
+
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-around
+
+}
+
+.dicas3 p {
+    width: 50%;
+}
+
+.dicas4 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-around
+    
+}
+
+
+
+.dicas4 p {
+    width: 50%;
+}
+
+
+.foto4 {
+    z-index: -1;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/foto4.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.40;
+    align-items: center;
+    margin-top: 20px;
+}
 
 
 
