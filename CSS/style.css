@@ -523,5 +523,79 @@ nav .icon{
     .cons .conscientizacao {
         width: 80%;
     }
+    .foto4 {
+        width: 100%;
+    }
+    .refs .link {
+        width: 100%;
+        border: 0.5px solid rgb(120, 0, 156);
+    }
+    .footer {
+        height: 230px;
+    }
+    .iconr {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
 
 }
+    @media (max-width: 425px) {
+        .div-img img {
+            width: 50px;
+        }
+        .div-video iframe {
+            width: 250px;
+        }
+        .texto-foto2 {
+            margin-bottom: 10px;
+        }
+        .dicas div {
+            
+        margin-bottom: 10px
+    
+        }
+    
+        .texto-foto4 .primeirop {
+            margin-bottom: 70px;
+    }
+        .texto-foto2 iframe {
+            width: 90%;
+            height: 200px;
+    }
+        
+        .video-img {
+            height: 300px;
+        }
+        .texto p {
+            width: 80%;
+        }
+        .texto-foto2 h2 {
+            width: 80%;
+        }
+        .texto-foto2 p {
+            width: 80%;
+        }
+        .texto-foto3 p {
+            width: 80%;
+        }
+        .texto-foto3 .segundop {
+            width: 80%;
+        }
+        .cons .conscientizacao {
+            width: 80%;
+        }
+        .refs .link {
+            width: 100%;
+            border: 0.5px solid rgb(115, 0, 150);
+        }
+        .footer {
+            height: 230px;
+        }
+        .iconr {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+        }
+        
+    }
