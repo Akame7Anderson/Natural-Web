@@ -488,6 +488,40 @@ nav .icon{
     .texto-foto2 {
         margin-bottom: 10px;
     }
+    .dicas div {
+        
+    margin-bottom: 10px
+
+    }
+
+    .texto-foto4 .primeirop {
+        margin-bottom: 70px;
+}
+    .texto-foto2 iframe {
+        width: 90%;
+        height: 200px;
+}
+    
+    .video-img {
+        height: 300px;
+    }
+    .texto p {
+        width: 80%;
+    }
+    .texto-foto2 h2 {
+        width: 80%;
+    }
+    .texto-foto2 p {
+        width: 80%;
+    }
+    .texto-foto3 p {
+        width: 80%;
+    }
+    .texto-foto3 .segundop {
+        width: 80%;
+    }
+    .cons .conscientizacao {
+        width: 80%;
+    }
 
 }
-
