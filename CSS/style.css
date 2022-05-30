@@ -394,7 +394,7 @@ nav .icon{
     font-weight: 500; 
 
 }
-.refs p {
+.refs p:hover {
 
     margin-bottom: 15px;
 
@@ -404,3 +404,47 @@ nav .icon{
     margin-bottom: 25px;
 
 }
+
+
+.texto-footer {
+
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.footer {
+
+    z-index: -1;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/imgfooter.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.texto-footer img {
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 60px;
+}
+.iconr img {
+
+    width: 70px;
+    height: 70px;
+    display: flex;
+
+}
+
+
