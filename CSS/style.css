@@ -606,5 +606,13 @@ nav .icon{
             align-items: flex-end;
             flex-direction: column;
         }
+        @media (max-width: 320px) {
+            .div-img {
+                display: none;
+            }            
+            .mapa {
+                height: 250px;
+            }
+        }
         
     }
