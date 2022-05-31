@@ -175,7 +175,7 @@ main .texto {
     z-index: -1;
     height: 600px;
     width: 100%;
-    background-image: url(../img/foto.jpg);
+    background-image: url(../img/foto3.jpg);
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -342,7 +342,7 @@ nav .icon{
     z-index: -1;
     height: 600px;
     width: 100%;
-    background-image: url(../img/foto4.jpg);
+    background-image: url(../img/foto4.png);
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -350,6 +350,7 @@ nav .icon{
     background-repeat: no-repeat;
     opacity: 0.70;
     margin-top: 20px;
+    text-align: center;
 }
 
 .texto-foto4 .primeirop {
@@ -377,22 +378,17 @@ nav .icon{
 
 }
 
-.texto-foto4 .link {
-
+.texto-foto4 .links {
     border: 1px solid rgb(111, 0, 255);
     color: rgb(2, 0, 3);
-    
-
+    font-weight: 600;
 }
 
-.texto-foto4 .refs {
-
-    width: 100%;
+.refs {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 500; 
-
+    text-align: center;
 }
 .refs p:hover {
 
@@ -424,7 +420,7 @@ nav .icon{
     z-index: -1;
     height: 200px;
     width: 100%;
-    background-image: url(../img/imgfooter.jpg);
+    background-image: url(../img/imgfooter.png);
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -449,6 +445,15 @@ nav .icon{
     flex-direction: column;
     margin-left: 10px;
 }
+.iconr a {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
 .iconr {
     display: flex;
     align-items: stretch;
@@ -469,6 +474,7 @@ nav .icon{
 
 .iconr p {
     margin-top: 30px;
+    
 }
 
 @media (max-width: 768px ) {
@@ -526,9 +532,12 @@ nav .icon{
     .foto4 {
         width: 100%;
     }
-    .refs .link {
-        width: 100%;
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         border: 0.5px solid rgb(120, 0, 156);
+        text-align: center;
     }
     .footer {
         height: 230px;
@@ -540,6 +549,7 @@ nav .icon{
     }
 
 }
+
     @media (max-width: 425px) {
         .div-img img {
             width: 50px;
@@ -586,7 +596,6 @@ nav .icon{
             width: 80%;
         }
         .refs .link {
-            width: 100%;
             border: 0.5px solid rgb(115, 0, 150);
         }
         .footer {
