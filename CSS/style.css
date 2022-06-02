@@ -175,7 +175,7 @@ main .texto {
     z-index: -1;
     height: 600px;
     width: 100%;
-    background-image: url(../img/foto3.jpg);
+    background-image: url(../img/foto3.png);
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -605,6 +605,14 @@ nav .icon{
             display: flex;
             align-items: flex-end;
             flex-direction: column;
+        }
+        @media (max-width: 320px) {
+            .div-img {
+                display: none;
+            }            
+            .mapa {
+                height: 250px;
+            }
         }
         
     }
